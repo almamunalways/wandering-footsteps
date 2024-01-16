@@ -21,6 +21,12 @@ body{
     align-items:center;
     gap: 15px;
 }
+.home{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    }
 .header-right-first{
     width: 50%;
     height: 100px;
@@ -56,7 +62,7 @@ body{
 .banner-heading{
     color: #FFF;
     font-family: Mulish;
-    font-size: 64px;
+    font-size: 70px;
     font-weight: 800;
 }
 .banner-desc{
@@ -65,48 +71,81 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
-.banner-all{
-    background-color:#FFF;
-    opacity: 0.5;
-    height: 100px;
-    width: 780px;
-    margin: 0 auto;
-    
-}
-.banner-all-button{
+
+.opacity-div{
     display: flex;
-    justify-content:center;
     align-items: center;
-
-}
-.chinku input{
-    background: #2600ff;
-    opacity: 1;
-}
-/* .banner-all-button input{
-    background-color: #FFF;
-    opacity: 1;
-    height: 50px;
+    justify-content: center;
+    width: 800px;
+    height: 85px;
     border-radius: 8px;
-    border: none;
-} */
-.find-now{
+    background: rgba(255, 255, 255, 0.30);
+    margin: 0 auto;
+    gap: 10px;
+    padding: 0px 40px;
+}
+.wheere-go-div{
+    border-radius: 8px;
+    background: #FFF;
+    /* width: 174px;
+    height: 52px; */
+    padding: 15px 10px;
+}
+
+.when-div{
+    border-radius: 8px;
+    background: #FFF;
+    /* width: 174px;
+    height: 52px; */
+    display: flex;
+    padding: 15px 5px;
+    gap: 10px;
+}
+
+.slect-div{
+    border-radius: 8px;
+    background: #FFF;
+    /* width: 174px;
+    height: 52px; */
+    display: flex;
+    padding: 15px 5px;
+    gap: 10px;
+}
+.find-div{
+    border-radius: 8px;
+    background: orangered;
+    /* width: 174px;
+    height: 52px; */
+    display: flex;
+    padding: 15px 5px;
+    gap: 15px;
+    color: #FFF;
+    border: 0px solid;
+}
+/* .find-div ::-webkit-input-placeholder{
+    color: white;
     background-color: #FF5400;
-    height: 50px;
-    border-radius: 8px;
-    color: #424247;
-}
-
     
- 
+} */
 
-button{
-    width: 174px;
-    height: 52px;
-    border-radius: 8px;
-    background-color: rgb(225, 210, 210);
-    border: none;
+.find-div input:focus {
+    outline-style: none;
+    box-shadow: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* popular section */
 
@@ -262,8 +301,104 @@ button{
     /* Newsletter section start */
 
 .newsletter{
-    width: 1170px;
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    gap: 2%;
 }   
+
 .newsletter-form{
-    display: block;
+    width: 39%;
+    border: 2px solid orange;
+    padding: 40px;
 } 
+.newsletter-heading{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0;
+}
+.newsletter-desc{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+/* .hr{
+    background: rgba(137, 20, 7, 0.1);
+} */
+
+.newsletter-image{
+    width: 59%;
+}
+.form-name3{
+    /* width: 393px;
+    height: 52px; */
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 20px 10px;
+    margin-bottom: 15px;
+}
+.form-name4{
+    /* width: 393px;
+    height: 52px; */
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 20px 10px;
+    margin-bottom: 25px;
+}
+.news-btn{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400; 
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+.save-70{
+    text-align: center;
+    align-items: center;
+    border-radius: 16px;
+    background: #FF5400; 
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    margin-top: -202px;
+    margin-left: 335px;
+    padding-top: 30px;
+}
+.save-70 p{
+    color: #FFF;
+    margin: 0;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.save-70 h3{
+    color: #FFF;
+    margin: 0;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
