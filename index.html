@@ -6,6 +6,7 @@
     <title>Second Assignment</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
             <!-- header start -->
@@ -17,7 +18,7 @@
                 <h3 class="header-title">Wandering <span class="Footsteps">Footsteps</span></h3>
             </div>
 
-            <div class="header-right-first">
+            <nav>
 
                 <a class="nav-tag" href=""> <span class="home">Home</span> </a>
                 <a class="nav-tag" href="">Packages</a>
@@ -25,60 +26,71 @@
                 <a class="nav-tag" href="">Blog</a>
                 <a class="nav-tag" href="">Contact</a>
                 
-            </div>
+            </nav>
     </header>
-              <!-- header end -->
+                                <!-- header end -->
+
+                                <!-- main section start -->
+
     <main class="main-section">
+                             <!-- Banner section start    -->
 
     <section class="banner-section">
                 <div class="banner-container">
-                   <h1 class="banner-heading">Explore Your Travel</h1>
-                   <p class="banner-desc">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+                   <div class="banner-content">
+                    <h1 class="banner-heading">Explore Your Travel</h1>
+                    <p class="banner-desc">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+                   </div>
 
-                   <form class="opacity-div">
-                        <div class="wheere-go-div">
-                            <!-- <select type="text" name="" placeholder="Where go"> -->
-                                <select name="" id=""placeholder="Where go"></select>
-                        </div>
-                        <div class="when-div"> 
-                            <input type="text" name="" placeholder="When">
-                            <img src="frame/down.png" alt="">
-                        </div>
-                        <div class="slect-div">
-                            <input type="text" name="" placeholder="Select Type">
-                            <img src="frame/down.png" alt="">
-                        </div>
-                        <div class="find-div">
-                            <img src="frame/search.png" alt="">
-                            <input type="text" name="" placeholder="Find Now">
+                   <form class="banner-form">
+                        <!-- <label for="Where to">Where To</label> -->
+                        <select name="Where To" id=""  >
+                            <option value="where-to">Where To</option>
+                            <option value="Mongolia">mongolia</option>
+
+                        </select>
+                        <select name="When" id=""  >
+                            <option value="When">When</option>
+                            <option value="Mongolia">mongolia</option>
+
+                        </select>
+                        <select name="Where To" id=""  >
+                            <option value="select">Where To</option>
+                            <option value="Mongolia">mongolia</option>
+
+                        </select>
+                        
+                        <div class="find-now">
+                          
+                            <button class="primary-btn">Find Now</button>
                         </div>
                    </form>
     
                 </div>
     </section>
-    
 
-              <!-- Populer Section Start -->
+                            <!-- Banner section End -->
 
+                            <!-- Popular Section start -->
 
-        <section class="populer-section">
-            <div class="populer-section-content">
-                <h3>Our Popular Tours</h3>
-                <p class="populer-desc1">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
-                <ul>
-                    <li class="populer-list">Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
-                    <li class="populer-list">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
-                    <li class="populer-list"> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
-                </ul>
-                <p class="populer-desc2">Amet consectetur. Vulputate commodo felis molestie risus 
-                    ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt. </p>
-                    <button class="populer-btn">Read More</button>
-            </div>
-            <div class="populer-section-image">
-                <img src="images/Rectangle 4.png" alt="">
-            </div>
+    <section class="populer-section">
+        <div class="populer-section-content">
+            <h3>Our Popular Tours</h3>
+            <p class="populer-desc1">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+            <ul>
+                <li class="populer-list">Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
+                <li class="populer-list">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+                <li class="populer-list"> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+            </ul>
+            <p class="populer-desc2">Amet consectetur. Vulputate commodo felis molestie risus 
+                ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt. </p>
+                <button class="populer-btn">Read More</button>
+        </div>
+        <div class="populer-section-image">
+            <img src="images/Rectangle 4.png" alt="">
+        </div>
             
-        </section>
+    </section>
                           <!-- Populer Section End -->
 
 
@@ -93,6 +105,7 @@
             <div class="first-row">
                 <img src="images/Rectangle 5.png" alt="">
                 <img src="images/Rectangle 8.png" alt="">
+                <!-- <div class="maldives">Maldives</div> -->
             </div>
             <div class="second-row">
                 <img src="images/Rectangle 6.png" alt="">
@@ -106,9 +119,10 @@
         </div>
     </section>
 
-                   <!-- Destination section End -->
+                        <!-- Destination section End -->
 
-                   <!-- Why choose us section start  -->
+
+                       <!-- Why choose us section start  -->
 
     <section class="choose-section">
          <div>
@@ -116,7 +130,12 @@
             <p class="choose-desc">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
          </div>
     </section>
-    <section>
+                           <!-- Why choose us section End -->
+
+                           <!-- after choose start here -->
+
+
+    <section class="sfter-choose-section">
         <div class="after-choose">
             <div class="handpicked-hotel">
                 <img src="frame/hotel 1.png" alt="">
@@ -136,47 +155,72 @@
          </div>
     </section>
        
-        <!-- after choose end -->
+                              <!-- after choose end -->
 
-        <!-- Newsletter Section start -->
 
-        <section class="newsletter">
-            <div class="newsletter-form">
-                <div class="form1">
-                    <h2 class="newsletter-heading">Newsletter</h2>
-                </div>
-                <div class="form1">
-                    <p class="newsletter-desc">Get your daily dose of travel news & tips. Sign up today!</p>
-                </div>
-                <hr class="hr"><br>
-                <div class="form-name3">
-                    <input type="text" placeholder="Enter your name">
-                </div>
+                          <!-- Newsletter Section start -->
 
-                <div class="form-name4">
-                    <input type="text" placeholder="Enter your email">
-                </div>
-             
-
-                <button class="news-btn">Subscribe</button>
-
+    <section class="newsletter">
+        <div class="newsletter-form">
+            <div class="form1">
+                <h2 class="newsletter-heading">Newsletter</h2>
             </div>
-            <div class="newsletter-image">
-                <img src="images/Rectangle 8 (1).png" alt="">
-                <div class="save-70">
-                    <p>Travel.com</p>
-                    <h3>Save up to 70%</h3>
-                </div>
-
+            <div class="form1">
+                <p class="newsletter-desc">Get your daily dose of travel news & tips. Sign up today!</p>
             </div>
 
-        </section>
+            <hr class="hr"><br>
+
+            <div class="form-name3">
+                <input type="text" placeholder="Enter your name">
+            </div>
+
+            <div class="form-name4">
+                <input type="text" placeholder="Enter your email">
+            </div>
+        
+
+            <button class="news-btn">Subscribe</button>
+
+        </div>
+                                <!-- Newsletter image start here -->
+
+        <div class="newsletter-image">
+            <img src="images/Rectangle 8 (1).png" alt="">
+            <div class="save-70">
+                <p>Travel.com</p>
+                <h3>Save up to 70%</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+                        <!-- Newsletter Section End -->
 
 
     </main>
+                            <!-- Main section End -->
+       
+                            <!-- Footer start here -->
     <footer>
+        <div class="footer-title">
+            <img src="images/Group 40071 (2).png" width="40px" height="45px" alt="">
+            <h3>Hero Travel</h3>
+        </div>
+            <div class="footer-desc-div">
+                <p class="footer-desc">Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
+            </div>
+        <div class="footer-icon">
+            <span><i class="fa-brands fa-twitter"></i></span>
+            <span><i class="fa-brands fa-facebook-f"></i></span>
+            <span><i class="fa-brands fa-instagram"></i></span>
+            <span><i class="fa-brands fa-github"></i></span>
+        </div>
+        <hr>
+        <p class="footer-last">2017, All Rights Reserved.</p>
 
     </footer>
-    
+                             <!-- Footer End -->
 </body>
 </html>
