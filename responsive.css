@@ -1,2 +1,318 @@
+@media screen and (max-width:600px) {
+    main{
+        margin: 0 20px;
+        max-width: 375px;
+    }
+                                 /* Header Start */
+    header{
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .header-frame{
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: 370px;       
+    }
+    .header-left-first{
+        width: 70%;
+        padding: 20px;
+        font-size: 21px;
+        position: relative;  
+    }
+    .header-title{
+        font-size: 20px; 
+    }
+    nav{
+        display: none;
+    }
+                                     /* Banner Start */
+    .banner-section{
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .banner-content .banner-heading {
+       font-size:30px ;
+       width: 100%;
+       margin-top: 0;
+    }
+    .banner-section .banner-container p{
+        width: 100%;
+        height: 10%;
+        text-align: center;
+    }
+    .banner-form{
+        width: 90%;
+        height: 300px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .banner-form select{
+        width: 92%;
+        height: 52px;
+        padding: 10px 30px;
+    }
+    .find-now{
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    .search-mag{
+        position: absolute;
+        left: 95px;
+        top: 15px;
+    }
+    .banner-section .banner-form .find-now button{
+        width:310px;
+        text-align: center;
+        
+    }
+                                     /* Banner End */
+                
+                                /* Popular Section Start */
+
+    .populer-section{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+    }
+    .populer-section-content{
+        width: 100%;
+    }
+    .populer-section-content > h3{
+        font-size: 20px;
+    }
+    .populer-parent-div{
+        width: 250px;
+    }
+    .populer-section-image{
+        height: 100%;
+        width: 100%;
+    }
+
+                              /* Destination section */
+
+    .destination-section{
+        margin-bottom: 25px;
+    }
+
+    .destination-heading{
+        text-align: center;
+        font-size: 20px;
+    }
+    .destination-desc {
+        text-align: center;
+        font-size: 14px    
+    }
+    .destination-section{
+        width: 100%;
+    }
+    .destination-image-container{
+        width: 100%;
+    }
+    .first-row, .second-row, .third-row{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .first-image,
+    .second-image,
+    .third-image,
+    .fourth-image,
+    .fifth-image,
+    .sixth-image,
+    .seventh-image{
+       position: relative;
+     }
+     .maldives{
+        position: absolute;
+        top: 75px;
+        left: 150px;
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    
+    .indonesia{
+        position: absolute;
+        top: 75px;
+        left: 150px;
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .srilanka{
+        position: absolute;
+        top: 75px;
+        left: 150px;
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .north-america{
+        position: absolute;
+        top: 75px;
+        left: 125px;
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .kashmir{
+        position: absolute;
+        top: 75px;
+        left: 150px;
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .bangladesh{
+        position: absolute;
+        top: 75px;
+        left: 140px;
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .bandarban{
+        position: absolute;
+        top: 75px;
+        left: 145px;
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .image-one{
+        width: 100%;
+        height: 175px;
+        object-fit: cover;
+        border-radius: 16px;
+    }
+
+                               /* why choose us section */
+         
+    .choose-heading{
+        text-align: center;
+        font-size: 20px;
+    }
+    .choose-desc{
+        text-align: center;  
+        font-size: 14px;
+    }
+
+    .after-choose-section{
+        width: 100%;
+    }
+    .after-choose{
+        display: flex;
+        flex-direction: column;
+        border-radius: 16px;
+    }
+    .after-choose-section .best-price-guarantee{
+        width: 88%;
+    }
+
+          
+                              /* newsletter section */
+
+    .newsletter {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: 100%;
+    } 
+    .newsletter-form{
+        width: 90%;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .news-btn{
+        width: 335px;
+    }
+    hr{
+        width: 288px; 
+      
+      }
+    .newsletter-image{
+        width: 100%;
+    }
+    .image-two{
+        width: 100%;
+    }
+    .save-70{
+        text-align: center;
+        align-items: center;
+        border-radius: 10px;
+        background: #FF5400; 
+        width: 190px;
+        height: 40px;
+        transform: rotate(-25.628deg);
+        margin-top: -120px;
+        margin-left: 175px;
+        padding-top: 20px;
+        padding-bottom: 20px;     
+} 
+.save-70 p{
+    color: #FFF;
+    margin: 0;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+}
+.save-70 h3{
+    color: #FFF;
+    margin: 0;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+ }
+
+
+                               /* Footer Section */
+
+footer{
+    margin-top: 70px;
+    width: 100%;
+    height: 70%;
+}
+.footer-title{
+    padding: 0;
+    text-align: center;
+}
+.footer-desc-div{
+    width: 80%;
+}
+hr{
+    width: 288px; 
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+  
+  }
+
+  .footer-last{
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin: 0;
+  }
+}
+                  
+
+                                /* End________! */
 
 

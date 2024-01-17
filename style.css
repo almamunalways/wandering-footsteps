@@ -18,7 +18,6 @@ body{
     margin: 0 auto;
     padding: 0 auto;
     box-sizing: border-box;
-    /* max-width: 1170px; */
 }
 header{
     max-width: 1170px;
@@ -28,12 +27,15 @@ main{
     max-width: 1170px;
     margin: 0 auto;
 }
-               /* Header start */
+                         /* Header start */
 
 .header-top-section{
     height:100px;
     width: 100%;
     display: flex; 
+}
+.header-frame{
+    display: none;
 }
 .header-left-first{
     width: 50%;
@@ -73,27 +75,23 @@ nav a{
     font-family: Mulish;
     font-size: 18px;
     font-weight: 400;
-
 }
-                      /* Header End */
+                        /* Header End */
 
-                  /*  Banner Section Start */
+                   /*  Banner Section Start */
 
 .banner-section{
     background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
     max-width: 1170px;
     height: 500px;
+    object-fit: cover;
     border-radius: 16px;
 }   
 .banner-container{
    text-align: center;
-   padding-top: 50px;
-    
+   padding-top: 50px;   
 }  
-.banner-content{
-   
-}
 .banner-content .banner-heading{
 
     color: #FFF;
@@ -212,13 +210,19 @@ button{
 .populer-section-image{
     width: 46%;
 }
-                        /* populer section end */
+.populer-section-image img{
+    width: 100%;
+}
+
+                             /* populer section end */
 
 
-                    /* Destination section start  */
+                          /* Destination section start  */
+
 
 .destination-section{
     text-align: center;
+    margin-bottom: 65px;
 }
 .destination-first-part{
     max-width:640px ;
@@ -237,6 +241,7 @@ button{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px; 
+    margin-bottom: 50px;
 }
 .first-row{
     display: flex;
@@ -306,8 +311,6 @@ button{
     font-size: 30px;
     font-weight: 800;
 }
-
-
 .third-row{
     display: flex;
     justify-content: space-between;
@@ -332,9 +335,11 @@ button{
     font-size: 30px;
     font-weight: 800;
 }
+
                              /* Destination section End */
 
                               /* Why choose us section start  */
+
 
 .choose-section{
     text-align: center;
@@ -356,9 +361,9 @@ button{
     font-weight: 400;
 }
 
-                      /* Why choose us section End */
-
-                        /* after choose start here */
+                            /* Why choose us section End */
+ 
+                             /* after choose start here */
 
 .after-choose{
     display: flex;
@@ -366,7 +371,6 @@ button{
     gap: 25px;
     margin-top: 50px;
     margin-bottom: 24px;
-    
 }
 .handpicked-hotel{
     padding: 20px;
@@ -375,7 +379,7 @@ button{
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
 }
-.World-class-loctaion{
+.World-class-location{
     padding: 20px;
     text-align: left;
     border-radius: 16px;
@@ -397,13 +401,12 @@ button{
                        /* Newsletter section start */
 
 .newsletter{
-    margin-top: 100px;
+    margin-top: 70px;
     width: 100%;
-    max-height: 422px;
+    width: 100%;
     display: flex;
     gap: 2%;
 }   
-
 .newsletter-form{
     width: 39%;
     border-radius: 16px;
@@ -429,25 +432,22 @@ button{
     border: none;
 }
 
-/* .hr{
+.hr{
     background: rgba(137, 20, 7, 0.1);
-} */
+    width: 85%;
+}
                           /* Newsletter image start here */
 
 .newsletter-image{
-    width: 59%;
+    width: 100%;
 }
 .form-name3{
-    /* width: 393px;
-    height: 52px; */
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     padding: 20px 10px;
     margin-bottom: 15px;
 }
 .form-name4{
-    /* width: 393px;
-    height: 52px; */
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     padding: 20px 10px;
@@ -488,9 +488,7 @@ input{
     text-align: center;
     font-family: Mulish;
     font-size: 24px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 .save-70 h3{
     color: #FFF;
@@ -498,9 +496,7 @@ input{
     text-align: center;
     font-family: Mulish;
     font-size: 32px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
 }
                       /* Newsletter section start End */
 
@@ -510,7 +506,7 @@ input{
                          /* Footer start here */
 
 footer{
-   margin-top:100px ; 
+   margin-top:80px ; 
    max-width: 100%;
    height: 500px;
    background: rgba(19, 19, 24, 0.05);
@@ -547,22 +543,16 @@ footer{
     margin-bottom: 40px;
    
 }
-.footer-icon i{
-
-}
 .footer-last{
     margin-top: 50px;
     text-align: center;
 }
-.footer-hr{
-    fwidth: 872px;
-    height: 1px;
+hr{
+    width: 50%;
+    margin: 0 auto;
 }
-                          
-
                               /* Footer End  */
 
 
-.hide{
-    display: block;
-}                              
+                              
+                              /* End_______! */
