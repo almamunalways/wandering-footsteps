@@ -2,6 +2,18 @@
 *{
     font-family: 'Mulish', sans-serif;
 }
+.common-paragraph{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+.common-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
 body{
     margin: 0 auto;
     padding: 0 auto;
@@ -31,13 +43,13 @@ main{
     align-items:center;
     gap: 15px;
 }
-.header-title{
+.header-title, .wild{
     color: #131318;
     font-family: Mulish;
     font-size: 36px;
     font-weight: 800;
 }
-.Footsteps{
+.Footsteps, .travel{
     color: #FF5400;
 }
 .home{
@@ -132,7 +144,15 @@ nav a{
 .find-now{
     display: flex;
     align-items: center;
-
+    position: relative;
+}
+button{
+    border: none;
+}
+.search-mag{
+    position: absolute;
+    left: 22px;
+    top: 15px;
 }
                            /* Banner section End */
 
@@ -187,6 +207,7 @@ nav a{
     height: 52px;
     border-radius: 8px;
     background: #FF5400;
+    border: none;
 }
 .populer-section-image{
     width: 46%;
@@ -221,17 +242,97 @@ nav a{
     display: flex;
     justify-content: space-between;
     margin-bottom: 24px;
+    gap: 24px;
+}
+.first-image,
+.second-image,
+.third-image,
+.fourth-image,
+.fifth-image,
+.sixth-image,
+.seventh-image{
+    position: relative;
+}
+
+.maldives{
+    position: absolute;
+    top: 130px;
+    left: 225px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.indonesia{
+    position: absolute;
+    top: 130px;
+    left: 225px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 800;
 }
 .second-row{
     display: flex;
     justify-content: space-between;
     margin-bottom: 24px;
+    gap: 24px;
 }
+.srilanka{
+    position: absolute;
+    top: 130px;
+    left: 120px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 800;
+}
+.north-america{
+    position: absolute;
+    top: 130px;
+    left: 130px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 800;
+}
+.kashmir{
+    position: absolute;
+    top: 130px;
+    left: 80px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
 .third-row{
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
-                               /* Destination section End */
+
+.bangladesh{
+    position: absolute;
+    top: 130px;
+    left: 145px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 800;
+}
+.bandarban{
+    position: absolute;
+    top: 130px;
+    left: 240px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 800;
+}
+                             /* Destination section End */
 
                               /* Why choose us section start  */
 
@@ -363,6 +464,10 @@ nav a{
     font-size: 20px;
     font-weight: 800;
 }
+input{
+    border: none;
+    background: rgba(19, 19, 24, 0);
+}
 
                             /* Save up to 70% start here */
 .save-70{
@@ -426,7 +531,13 @@ footer{
     margin: 0 auto;
 }           
 .footer-desc{
-    
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
 }
 .footer-icon{
     display: flex;
@@ -443,6 +554,15 @@ footer{
     margin-top: 50px;
     text-align: center;
 }
+.footer-hr{
+    fwidth: 872px;
+    height: 1px;
+}
                           
 
                               /* Footer End  */
+
+
+.hide{
+    display: block;
+}                              
